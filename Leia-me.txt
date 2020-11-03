@@ -1,0 +1,26 @@
+O aplicativo foi desenvolvido no Android Studio.
+
+Android Studio versão 3.5
+Versão do Android 9
+Não foi utilizado BD, e sim SharedPreferences.
+
+Objetivo: salvar dados pessoais.
+
+Tela inicial
+- Contém as informações salvas no perfil.
+- Contém 4 botões
+-- Pessoal
+-- Saúde
+-- Atualizar informações
+-- Sobre
+
+Botão 1 PESSOAL: traz campos como nome, data de nascimento, etc.
+É possível salvar os dados ou deletar todas as informações.
+
+Botão 2 SAÚDE: traz os campos altura, peso, etc.
+--Ao digitar os campos altura (em metros) e peso ele transforma para Double e traz o resultado do IMC (arredondado pela função MATH) e sua situação.
+É possível salvar os dados ou deletar todas as informações.
+
+Botão 3 ATUALIZAR INFORMAÇÕES: ao atualizar os dados em um dos formulários principais (pessoal ou saúde) e clicar nesse botão será atualizado os dados impressos na home.
+
+Botão 4 SOBRE: Traz algumas informações sobre o app
